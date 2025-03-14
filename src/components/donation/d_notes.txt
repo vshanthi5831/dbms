@@ -1,0 +1,73 @@
+1. we have created an array for cause with ids and titles 
+    const cause = [];
+
+2. useState hooks ---> used to handle dynamic data ips
+    const[amount, setAmount] = useState("");
+    const[name, setName] = useState("");
+    const[cause, setCause] = useState("");
+
+    initially all the fields are empty
+    useState creates state variables to store user ip
+
+3. form submission
+    const handleSubmit = (e) => {
+        e.preventDefault();  // ✅ Prevents page reload
+        alert(`Thank you ${name} for donating $${amount} to ${cause}!`); // ✅ Shows a success message
+    };
+
+    on an event occured ie 'e' --> e is by default passed by js as event 
+                               --> also known as event object
+                               --> e contains info about what event has occured 
+                               --> automatically passed within functions like onChange, onClick, onSubmit
+                               --> e.target.value - gets form fields from user ip
+                               --> setName(e.target.value) - sets the new name with what the user types
+                               --> e.preventDefault() - prevents the page from refreshing on Submit
+
+4. name ip & amount(some fields change)
+    <input 
+        type = "text"
+        placeholder = "Your Name"
+        value = {name} --> this is a controlled field which changes wrt to user ip
+        onChange  = {(e) => setName(e.target.value)}
+        required --> ensures users cannot submit without filling this field
+    />
+
+5. dropdown 
+    <select value = {cause} onChange = {(e) => setCause(e.target.value)} required>
+        <option value = "" disabled>Select a Cause </option>
+        {causes.map( (c) => (
+            <option key = {c.id} value = {c.title}>{c.title}</option>
+        ))}
+     </select>
+
+6. submit
+    <button type="submit" className="gradient-button">Donate</button>
+
+    --> gradient-button for css styling
+    --> type of button is "submit"
+
+
+
+
+miscelleneous: 
+
+--> useState("") - Best for user input fields.
+    useState("default value") - Best when you want to pre-fill a value.
+    
+--> map() is always used for looping (instead of forEach since map() returns jsx elements)
+    eg: const fruits = ["apple", "banana", "cherry"];
+        fruits.map((fruit) => console.log(fruit));
+    op: apple
+        banana
+        cherry
+    like in cases where we refer key = {frruit} --- we use map()
+    eg: const alpha = ["a", "b", "c"];
+        return(
+            <ul> 
+            {fruits.map((fruit, index) =>(
+                <li key = {index}>fruit</li>
+            ))}
+            </ul>
+        )
+
+

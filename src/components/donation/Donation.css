@@ -1,0 +1,83 @@
+/* Donation Form Container */
+.donation-form {
+    background: linear-gradient(135deg, #168d8f, #000000); /* Gradient background */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    margin: 50px auto;
+    color: white;
+}
+  
+/* Donation Form Title */
+.donation-form h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Input Fields */
+.donation-form input,
+.donation-form select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 16px;
+}
+
+/* Placeholder Styling */
+.donation-form input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Focus Effect */
+.donation-form input:focus,
+.donation-form select:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Select Dropdown Styling */
+.donation-form select {
+    appearance: none;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.2); /* Fix: Background visibility */
+    color: white; /* Fix: Ensures text is visible */
+    border-radius: 8px;
+    padding: 12px;
+}
+
+/* Dropdown Options */
+.donation-form select option {
+    background: #168d8f; /* Fix: Background color for dropdown options */
+    color: white; /* Fix: Ensures options are visible */
+    padding: 10px;
+}
+
+/* Donate Button */
+.gradient-button {
+    background: linear-gradient(135deg, #168d8f, #000000);
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+  
+.gradient-button:hover {
+    background: linear-gradient(135deg, #000000, #168d8f);
+    transform: scale(1.05);
+}
+
+.gradient-button:active {
+    transform: scale(0.95);
+}
