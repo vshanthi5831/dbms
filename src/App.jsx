@@ -6,6 +6,8 @@ import Home from "./pages/home";
 import Donate from "./pages/donate";
 import About from "./pages/about";
 import KnowMore from "./pages/know_more";
+import Stats from "./pages/Stats";
+// import Profile from "./pages/your_profile";
 
 export default function App() {
   return (
@@ -17,6 +19,8 @@ export default function App() {
         <Route path="/login" element={<Login/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/more" element={<KnowMore/>} />
+        <Route path="/stats" element={<Stats/>} />
+        {/* <Route path="/profile" element={<Profile/>} /> */}
       </Routes>
     </Router>
   );

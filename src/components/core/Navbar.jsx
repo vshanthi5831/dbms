@@ -23,8 +23,9 @@ const Navbar = () => {
             <li className="nav-item"><Link className="nav-link" to="/donate">Donate</Link></li>
             <li className="nav-item"><Link className="nav-link" to="/about">About</Link></li>
             <li className="nav-item"><Link className="nav-link" to="/more">Know More</Link></li>
+            <li className="nav-item"><Link className="nav-link" to="/stats">Dashboard</Link></li>
           </ul>
-          <div className="d-flex gap-2">  {/* Added spacing */}
+          <div className="d-flex gap-2"> 
             <Link to="/login">
               <Button text="Login" className="small-button" />
             </Link>

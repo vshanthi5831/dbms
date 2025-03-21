@@ -74,3 +74,37 @@ export default Logout;
 
 
 
+
+
+
+import React, { useEffect, useState } from "react";
+import axios from "axios";
+
+const OrgDetails = () => {
+  const [org, setOrg] = useState(null);
+
+  useEffect(() => {
+    axios.get("http://localhost:3001/organizations/1")
+      .then(response => setOrg(response.data))
+      .catch(error => console.error("Error fetching organization details", error));
+  }, []);
+
+  return (
+    <div className="profile-card">
+      <h2>Organization Details</h2>
+      {org ? (
+        <>
+          <p><strong>Name:</strong> {org.name}</p>
+          <p><strong>Founded:</strong> {org.founded}</p>
+          <p><strong>Location:</strong> {org.location}</p>
+        </>
+      ) : (
+        <p>Loading...</p>
+      )}
+    </div>
+  );
+};
+
+export default OrgDetails;
+
+

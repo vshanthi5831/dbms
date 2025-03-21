@@ -38,7 +38,7 @@ const Login = () => {
 
   return (
     <div className="login-container">
-      <h2 style={{ color: "white", textAlign: "center" }}>Login</h2>
+      <h2 style={{ color: "white", textAlign: "center" }}>Loginll</h2>
       <form onSubmit={handleSubmit}>
         <div className="input-group">
           <label>Username</label>

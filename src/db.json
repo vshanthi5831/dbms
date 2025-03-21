@@ -1,0 +1,64 @@
+{
+    "causes": [
+      { "id": 1, "cause": "Education for All", "amount": 5000 },
+      { "id": 2, "cause": "Support Healthcare", "amount": 3200 },
+      { "id": 3, "cause": "Disaster Relief", "amount": 7800 },
+      { "id": 4, "cause": "End Hunger", "amount": 4200 },
+      { "id": 5, "cause": "Save Wildlife", "amount": 2900 },
+      { "id": 6, "cause": "Empower Women", "amount": 6100 }
+    ],
+  
+    "organizations": [
+      { "id": 1, "organization": "CauseConnect Foundation", "cause": "Education for All" },
+      { "id": 2, "organization": "Global Literacy Initiative", "cause": "Education for All" },
+      { "id": 3, "organization": "Bright Minds Foundation", "cause": "Education for All" },
+      { "id": 4, "organization": "Learn4Life", "cause": "Education for All" },
+      { "id": 5, "organization": "Future Scholars Program", "cause": "Education for All" },
+      { "id": 6, "organization": "Youth Education Trust", "cause": "Education for All" },
+      { "id": 7, "organization": "Smart Kids Fund", "cause": "Education for All" },
+  
+      { "id": 8, "organization": "Global Health Relief", "cause": "Support Healthcare" },
+      { "id": 9, "organization": "MedCare Foundation", "cause": "Support Healthcare" },
+      { "id": 10, "organization": "Lifesavers Network", "cause": "Support Healthcare" },
+  
+      { "id": 11, "organization": "Disaster Aid Network", "cause": "Disaster Relief" },
+      { "id": 12, "organization": "Emergency Relief Fund", "cause": "Disaster Relief" },
+      { "id": 13, "organization": "Rapid Response Team", "cause": "Disaster Relief" },
+      { "id": 14, "organization": "Global Crisis Support", "cause": "Disaster Relief" },
+      { "id": 15, "organization": "Rebuild Together", "cause": "Disaster Relief" },
+      { "id": 16, "organization": "Earthquake Recovery Fund", "cause": "Disaster Relief" },
+      { "id": 17, "organization": "Flood Rescue Mission", "cause": "Disaster Relief" },
+  
+      { "id": 18, "organization": "Food for Everyone", "cause": "End Hunger" },
+      { "id": 19, "organization": "Zero Hunger Initiative", "cause": "End Hunger" },
+      { "id": 20, "organization": "Hunger-Free World", "cause": "End Hunger" },
+  
+      { "id": 21, "organization": "Wildlife Guardians", "cause": "Save Wildlife" },
+      { "id": 22, "organization": "Conserve the Wild", "cause": "Save Wildlife" },
+      { "id": 23, "organization": "Animal Rescue Fund", "cause": "Save Wildlife" },
+      { "id": 24, "organization": "EcoDefenders", "cause": "Save Wildlife" },
+  
+      { "id": 25, "organization": "Women Upliftment Fund", "cause": "Empower Women" },
+      { "id": 26, "organization": "Equal Rights Alliance", "cause": "Empower Women" },
+      { "id": 27, "organization": "She Leads Initiative", "cause": "Empower Women" },
+      { "id": 28, "organization": "Strong Women Network", "cause": "Empower Women" },
+      { "id": 29, "organization": "Girls Education Matters", "cause": "Empower Women" },
+      { "id": 30, "organization": "Women Safety Initiative", "cause": "Empower Women" }
+    ],
+
+    "yearly_donations": [
+      { "year": 2013, "total_donations": 5000 },
+      { "year": 2014, "total_donations": 7800 },
+      { "year": 2015, "total_donations": 10200 },
+      { "year": 2016, "total_donations": 14500 },
+      { "year": 2017, "total_donations": 17200 },
+      { "year": 2018, "total_donations": 12000 },
+      { "year": 2019, "total_donations": 18500 },
+      { "year": 2020, "total_donations": 24300 },
+      { "year": 2021, "total_donations": 31000 },
+      { "year": 2022, "total_donations": 27800 },
+      { "year": 2023, "total_donations": 33500 },
+      { "year": 2024, "total_donations": 39000 }
+    ]
+  }
+  
